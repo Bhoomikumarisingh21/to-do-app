@@ -1,0 +1,41 @@
+name: taskly
+description: A beautiful, feature-rich To-Do app built with Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.1
+
+  # Local Storage
+  shared_preferences: ^2.2.2
+
+  # UUID generation
+  uuid: ^4.3.3
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment to add Google Fonts (optional)
+  # fonts:
+  #   - family: Nunito
+  #     fonts:
+  #       - asset: fonts/Nunito-Regular.ttf
+  #       - asset: fonts/Nunito-Bold.ttf
+  #         weight: 700
+  #       - asset: fonts/Nunito-ExtraBold.ttf
+  #         weight: 800
